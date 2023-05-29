@@ -33,7 +33,7 @@ This will generate:
 ```
 > npm install -g yo
 > npm install -g generator-spring-boot-rest-api
-> yo generator-spring-boot
+> yo generator-spring-boot-rest-api
 ```
 
 ## Note
