@@ -1,0 +1,46 @@
+{
+  "name": "generator-spring-boot-rest-api",
+  "version": "0.0.1",
+  "description": "A Yeoman generator for generating SpringBoot microservices",
+  "keywords": [
+    "yeoman-generator",
+    "java",
+    "spring",
+    "spring-boot",
+    "microservice"
+  ],
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DLaMott/generator-spring-boot-rest-api"
+  },
+  "author": "Dylan LaMott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DLaMott/generator-spring-boot-rest-api/issues"
+  },
+  "homepage": "https://github.com/DLaMott/generator-spring-boot-rest-api",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "lodash": "4.17.21",
+    "shelljs": "0.8.5",
+    "yeoman-environment": "3.10.0",
+    "yeoman-generator": "5.7.0",
+    "yo": "3.1.1",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "4.3.6",
+    "fs-extra": "10.1.0",
+    "mocha": "10.0.0",
+    "sinon": "14.0.0",
+    "yeoman-assert": "3.1.1",
+    "yeoman-test": "6.3.0"
+  },
+  "engines": {
+    "npm" : ">= 4.0.0"
+  }
+}
