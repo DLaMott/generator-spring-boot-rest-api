@@ -8,13 +8,13 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
-public class <%= configOptions.appName %>Application {
+public class <%= configOptions.appNameStrip %>Application {
 
-    private static Logger logger = LoggerFactory.getLogger(<%= configOptions.appName %>Application.class);
+    private static Logger logger = LoggerFactory.getLogger(<%= configOptions.appNameStrip %>Application.class);
 
     public static void main(String[] args){
         try{
-            ConfigurableApplicationContext ac = SpringApplication.run(<%= configOptions.appName %>Application.class, args);
+            ConfigurableApplicationContext ac = SpringApplication.run(<%= configOptions.appNameStrip %>Application.class, args);
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
                 logger.info("SIGTERM issued");
                 ac.close();

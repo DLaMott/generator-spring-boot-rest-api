@@ -49,7 +49,7 @@ function prompting() {
     this.prompt(prompts).then(answers => {
         Object.assign(this.configOptions, answers);
         this.configOptions.features = this.configOptions.features || [];
-        this.configOptions.appName = this.configOptions.appName.replace('-', "")
+        this.configOptions.appNameStrip = this.configOptions.appName.replaceAll('-', "")
         this.configOptions.packageFolder = this.configOptions.packageName.replace(/\./g, '/');
         done();
     });

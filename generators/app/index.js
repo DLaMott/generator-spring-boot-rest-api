@@ -76,10 +76,11 @@ module.exports = class extends BaseGenerator {
     }
 
     _copyDynamicApp(configOptions){
+        let possible = configOptions.appName.split('-').join("");
         this.fs.copyTpl(
             this.templatePath(constants.dynamicDir + "/app/Application.java"),
             this.destinationPath(
-                'src/main/java/' + configOptions.packageFolder + "/" + configOptions.appName + "Application.java"
+                'src/main/java/' + configOptions.packageFolder + "/" + possible + "Application.java"
             ),
             this,
             null,
