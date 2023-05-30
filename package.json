@@ -1,6 +1,6 @@
 {
   "name": "generator-spring-boot-rest-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Yeoman generator for generating SpringBoot microservices",
   "keywords": [
     "yeoman-generator",
