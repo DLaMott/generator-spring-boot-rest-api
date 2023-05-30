@@ -1,5 +1,7 @@
-# Generator-Spring-Boot
-A Yeoman generator for generating a Spring-Boot Microservice
+# Generator-Spring-Boot-Rest-Api
+A Yeoman generator for generating a Spring-Boot Microservice.
+
+npm registry project: [location](https://www.npmjs.com/package/generator-spring-boot-rest-api)
 
 ## Features
 
