@@ -21,7 +21,7 @@ This will generate:
 
 ```
 > git clone https://github.com/DLaMott/generator-spring-boot-rest-api.git
-> cd generator-spring-boot
+> cd generator-spring-boot-rest-api
 > npm install -g yo
 > npm install 
 > npm link
