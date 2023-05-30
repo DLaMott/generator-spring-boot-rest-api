@@ -25,7 +25,7 @@ This will generate:
 > npm install -g yo
 > npm install 
 > npm link
-> yo generator-spring-boot
+> yo generator-spring-boot-rest-api
 ```
 
 ## Don't want the code?
